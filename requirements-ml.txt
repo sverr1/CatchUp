@@ -1,0 +1,18 @@
+# ML dependencies for VAD (Voice Activity Detection)
+# Install these when you're ready to implement real VAD processing
+#
+# Installation:
+#   pip install -r requirements-ml.txt
+#
+# Note: These require significant disk space and may take time to install
+
+# PyTorch (for Silero VAD)
+torch>=2.2.0
+torchaudio>=2.2.0
+
+# Silero VAD
+silero-vad>=5.1
+
+# Optional: Specify PyTorch with CPU-only for faster install
+# torch>=2.2.0 --index-url https://download.pytorch.org/whl/cpu
+# torchaudio>=2.2.0 --index-url https://download.pytorch.org/whl/cpu
